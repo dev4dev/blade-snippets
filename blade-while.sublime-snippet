@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@while (${1:condition})
+	${0:{{--expression}
+@endwhile
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@while</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.blade</scope>
+</snippet>

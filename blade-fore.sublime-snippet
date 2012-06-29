@@ -1,0 +1,13 @@
+<snippet>
+	<content><![CDATA[
+@forelse (${1:\$array} as ${2:\$element})
+	${3:{{--expression}
+@empty
+	${4:{{--empty}
+@endforeach${0}
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>@fore</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.html.blade</scope>
+</snippet>
