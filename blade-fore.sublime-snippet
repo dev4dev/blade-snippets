@@ -4,7 +4,7 @@
 	${3:{{--expression}
 @empty
 	${4:{{--empty}
-@endforeach${0}
+@endforelse${0}
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>@fore</tabTrigger>
