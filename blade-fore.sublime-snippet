@@ -1,10 +1,10 @@
 <snippet>
 	<content><![CDATA[
 @forelse (${1:\$array} as ${2:\$element})
-	${3:{{--expression}
+	${3:{{--expr}
 @empty
-	${4:{{--empty}
-@endforelse${0}
+	${4:{{--empty expr}
+@endforelse$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>@fore</tabTrigger>

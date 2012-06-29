@@ -1,6 +1,6 @@
 <snippet>
 	<content><![CDATA[
-@include('${1:template}')
+@include('${1:template}')$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>@inc</tabTrigger>
