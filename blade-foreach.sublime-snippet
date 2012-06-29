@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 @foreach (${1:\$array} as ${2:\$element})
-    ${0:{{--expression}
+	${0:{{--expression}
 @endforeach
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
