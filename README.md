@@ -15,121 +15,111 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 	<tr>
 		<td>lay</td>
 		<td>
-		<code>@layout('`name`')</code>
+		@layout('`name`')
 		</td>
 	</tr>
 	<tr>
 		<td>sec</td>
 		<td>
-		<code>@section('`name`') 
+		@section('`name`') 
 
-
-		@endsection</code>
+		@endsection
 		</td>
 	</tr>
 	<tr>
 		<td>secy</td>
 		<td>
-		<code>@section('`name`')
+		@section('`name`')
 
-
-		@yield_section</code>
+		@yield_section
 		</td>
 	</tr>
 	<tr>
 		<td>yl</td>
 		<td>
-		<code>@yield('`name`')</code>
+		@yield('`name`')
 		</td>
 	</tr>
 	<tr>
 		<td>par</td>
 		<td>
-		<code>@parent</code>
+		@parent
 		</td>
 	</tr>
 	<tr>
 		<td>}}</td>
 		<td>
-		<code>{{ $`var` }}</code>
+		{{ $`var` }}
 		</td>
 	</tr>
 	<tr>
 		<td>}}}</td>
 		<td>
-		<code>{{ `expression` }}</code>
+		{{ `expression` }}
 		</td>
 	</tr>
 	<tr>
 		<td>inc</td>
 		<td>
-		<code>@include('`name`')</code>
+		@include('`name`')
 		</td>
 	</tr>
 	<tr>
 		<td>if</td>
 		<td>
-		<code>@if (`condition`) 
+		@if (`condition`) 
 
-
-		@endif</code>
+		@endif
 		</td>
 	</tr>
 	<tr>
 		<td>ife</td>
 		<td>
-		<code>@if (`condition`) 
-
+		@if (`condition`) 
 
 		@else 
 
-
-		@endif</code>
+		@endif
 		</td>
 	</tr>
 	<tr>
 		<td>foreach</td>
 		<td>
-		<code>@foreach(`$array` as `$element`) 
+		@foreach(`$array` as `$element`) 
 
-
-		@endforeach</code>
+		@endforeach
 		</td>
 	</tr>
 	<tr>
 		<td>fore</td>
 		<td>
-		<code>@forelse (`$array` as `$element`) 
+		@forelse (`$array` as `$element`) 
 
-
-		@endforelse</code>
+		@endforelse
 		</td>
 	</tr>
 	<tr>
 		<td>for</td>
 		<td>
-		<code>@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
+		@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
 
-
-		@endfor</code>
+		@endfor
 		</td>
 	</tr>
 	<tr>
 		<td>while</td>
 		<td>
-		<code>@while (`condition`) 
+		@while (`condition`) 
 
-
-		@endwhile</code>
+		@endwhile
 		</td>
 	</tr>
 	<tr>
 		<td>unless</td>
 		<td>
-		<code>@unless (`condition`) 
+		@unless (`condition`) 
 
-
-		@endunless</code>
+		@endunless
 		</td>
 	</tr>
 	</table>
