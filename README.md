@@ -22,7 +22,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>sec</td>
 		<td>
 		@section('`name`') 
-		<br>
+		<br><br>
 		@endsection
 		</td>
 	</tr>
@@ -30,7 +30,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>secy</td>
 		<td>
 		@section('`name`')
-
+		<br><br>
 		@yield_section
 		</td>
 	</tr>
@@ -68,7 +68,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>if</td>
 		<td>
 		@if (`condition`) 
-		<br>
+		<br><br>
 		@endif
 		</td>
 	</tr>
@@ -76,9 +76,9 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>ife</td>
 		<td>
 		@if (`condition`) 
-		<br>
+		<br><br>
 		@else 
-
+		<br><br>
 		@endif
 		</td>
 	</tr>
@@ -86,7 +86,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>foreach</td>
 		<td>
 		@foreach(`$array` as `$element`) 
-		<br>
+		<br><br>
 		@endforeach
 		</td>
 	</tr>
@@ -94,7 +94,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>fore</td>
 		<td>
 		@forelse (`$array` as `$element`) 
-		<br>
+		<br><br>
 		@endforelse
 		</td>
 	</tr>
@@ -102,7 +102,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>for</td>
 		<td>
 		@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
-
+		<br><br>
 		@endfor
 		</td>
 	</tr>
@@ -110,7 +110,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>while</td>
 		<td>
 		@while (`condition`) 
-
+		<br><br>
 		@endwhile
 		</td>
 	</tr>
@@ -118,7 +118,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<td>unless</td>
 		<td>
 		@unless (`condition`) 
-
+		<br><br>
 		@endunless
 		</td>
 	</tr>
