@@ -15,111 +15,111 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 	<tr>
 		<td>lay</td>
 		<td>
-		```@layout('`name`')```
+		<code>@layout('`name`')</code>
 		</td>
 	</tr>
 	<tr>
 		<td>sec</td>
 		<td>
-		```@section('`name`') 
+		<code>@section('`name`') 
 
-		@endsection```
+		@endsection</code>
 		</td>
 	</tr>
 	<tr>
 		<td>secy</td>
 		<td>
-		```@section('`name`')
+		<code>@section('`name`')
 
-		@yield_section```
+		@yield_section</code>
 		</td>
 	</tr>
 	<tr>
 		<td>yl</td>
 		<td>
-		```@yield('`name`')```
+		<code>@yield('`name`')</code>
 		</td>
 	</tr>
 	<tr>
 		<td>par</td>
 		<td>
-		```@parent```
+		<code>@parent</code>
 		</td>
 	</tr>
 	<tr>
 		<td>}}</td>
 		<td>
-		```{{ $`var` }}```
+		<code>{{ $`var` }}</code>
 		</td>
 	</tr>
 	<tr>
 		<td>}}}</td>
 		<td>
-		```{{ `expression` }}```
+		<code>{{ `expression` }}</code>
 		</td>
 	</tr>
 	<tr>
 		<td>inc</td>
 		<td>
-		```@include('`name`')```
+		<code>@include('`name`')</code>
 		</td>
 	</tr>
 	<tr>
 		<td>if</td>
 		<td>
-		```@if (`condition`) 
+		<code>@if (`condition`) 
 
-		@endif```
+		@endif</code>
 		</td>
 	</tr>
 	<tr>
 		<td>ife</td>
 		<td>
-		```@if (`condition`) 
+		<code>@if (`condition`) 
 
 		@else 
 
-		@endif```
+		@endif</code>
 		</td>
 	</tr>
 	<tr>
 		<td>foreach</td>
 		<td>
-		```@foreach(`$array` as `$element`) 
+		<code>@foreach(`$array` as `$element`) 
 
-		@endforeach```
+		@endforeach</code>
 		</td>
 	</tr>
 	<tr>
 		<td>fore</td>
 		<td>
-		```@forelse (`$array` as `$element`) 
+		<code>@forelse (`$array` as `$element`) 
 
-		@endforelse```
+		@endforelse</code>
 		</td>
 	</tr>
 	<tr>
 		<td>for</td>
 		<td>
-		```@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
+		<code>@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
 
-		@endfor```
+		@endfor</code>
 		</td>
 	</tr>
 	<tr>
 		<td>while</td>
 		<td>
-		```@while (`condition`) 
+		<code>@while (`condition`) 
 
-		@endwhile```
+		@endwhile</code>
 		</td>
 	</tr>
 	<tr>
 		<td>unless</td>
 		<td>
-		```@unless (`condition`) 
+		<code>@unless (`condition`) 
 
-		@endunless```
+		@endunless</code>
 		</td>
 	</tr>
 	</table>
