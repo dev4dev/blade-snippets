@@ -12,121 +12,118 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 		<th>Shortcut</th>
 		<th>Result</th>
 	</tr>
+	<tr>
+		<td>lay</td>
+		<td>
+		```@layout('`name`')```
+		</td>
+	</tr>
+	<tr>
+		<td>sec</td>
+		<td>
+		```@section('`name`') 
 
-</table>
+		@endsection```
+		</td>
+	</tr>
+	<tr>
+		<td>secy</td>
+		<td>
+		```@section('`name`')
 
+		@yield_section```
+		</td>
+	</tr>
+	<tr>
+		<td>yl</td>
+		<td>
+		```@yield('`name`')```
+		</td>
+	</tr>
+	<tr>
+		<td>par</td>
+		<td>
+		```@parent```
+		</td>
+	</tr>
+	<tr>
+		<td>}}</td>
+		<td>
+		```{{ $`var` }}```
+		</td>
+	</tr>
+	<tr>
+		<td>}}}</td>
+		<td>
+		```{{ `expression` }}```
+		</td>
+	</tr>
+	<tr>
+		<td>inc</td>
+		<td>
+		```@include('`name`')```
+		</td>
+	</tr>
+	<tr>
+		<td>if</td>
+		<td>
+		```@if (`condition`) 
 
+		@endif```
+		</td>
+	</tr>
+	<tr>
+		<td>ife</td>
+		<td>
+		```@if (`condition`) 
 
-<tr>
-	<td>lay</td>
-	<td>
-	```@layout('`name`')```
-	</td>
-</tr>
-<tr>
-	<td>sec</td>
-	<td>
-	```@section('`name`') 
+		@else 
 
-	@endsection```
-	</td>
-</tr>
-<tr>
-	<td>secy</td>
-	<td>
-	```@section('`name`')
+		@endif```
+		</td>
+	</tr>
+	<tr>
+		<td>foreach</td>
+		<td>
+		```@foreach(`$array` as `$element`) 
 
-	@yield_section```
-	</td>
-</tr>
-<tr>
-	<td>yl</td>
-	<td>
-	```@yield('`name`')```
-	</td>
-</tr>
-<tr>
-	<td>par</td>
-	<td>
-	```@parent```
-	</td>
-</tr>
-<tr>
-	<td>}}</td>
-	<td>
-	```{{ $`var` }}```
-	</td>
-</tr>
-<tr>
-	<td>}}}</td>
-	<td>
-	```{{ `expression` }}```
-	</td>
-</tr>
-<tr>
-	<td>inc</td>
-	<td>
-	```@include('`name`')```
-	</td>
-</tr>
-<tr>
-	<td>if</td>
-	<td>
-	```@if (`condition`) 
+		@endforeach```
+		</td>
+	</tr>
+	<tr>
+		<td>fore</td>
+		<td>
+		```@forelse (`$array` as `$element`) 
 
-	@endif```
-	</td>
-</tr>
-<tr>
-	<td>ife</td>
-	<td>
-	```@if (`condition`) 
+		@endforelse```
+		</td>
+	</tr>
+	<tr>
+		<td>for</td>
+		<td>
+		```@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
 
-	@else 
+		@endfor```
+		</td>
+	</tr>
+	<tr>
+		<td>while</td>
+		<td>
+		```@while (`condition`) 
 
-	@endif```
-	</td>
-</tr>
-<tr>
-	<td>foreach</td>
-	<td>
-	```@foreach(`$array` as `$element`) 
+		@endwhile```
+		</td>
+	</tr>
+	<tr>
+		<td>unless</td>
+		<td>
+		```@unless (`condition`) 
 
-	@endforeach```
-	</td>
-</tr>
-<tr>
-	<td>fore</td>
-	<td>
-	```@forelse (`$array` as `$element`) 
+		@endunless```
+		</td>
+	</tr>
+	</table>
 
-	@endforelse```
-	</td>
-</tr>
-<tr>
-	<td>for</td>
-	<td>
-	```@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
-
-	@endfor```
-	</td>
-</tr>
-<tr>
-	<td>while</td>
-	<td>
-	```@while (`condition`) 
-
-	@endwhile```
-	</td>
-</tr>
-<tr>
-	<td>unless</td>
-	<td>
-	```@unless (`condition`) 
-
-	@endunless```
-	</td>
-</tr>
 
 ---
 Forked from [dev4dev/blade-snippets] (https://github.com/dev4dev/blade-snippets)
