@@ -8,11 +8,12 @@ These snippets support files with blade syntax: **PHP - Laravel Blade** availabl
 When you're on a blade file, type the snippet shortcut then press `tab` key.
 
 ##Installation
-Download the snippets zip file and unzip it into your Packages folder
-
-Or clone this repository into your Packages folder:
+Clone this repository into your Packages folder:
 		
-		    git clone https://github.com/bliker/laravel4-snippets.git
+    git clone https://github.com/bliker/laravel4-snippets.git
+
+
+Download the snippets zip file and unzip it into your Packages folder
 
 ##Avalable snippets
 <table>
