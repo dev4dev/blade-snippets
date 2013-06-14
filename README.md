@@ -1,11 +1,13 @@
-## Blade Template Engine Snippets
+# Blade Template Engine Snippets
 
-These snippets support files with blade syntax: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package beside file with normal html syntax.
+`Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com).
 
-###Usage
+These snippets support files with blade syntax: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package, beside files with normal html syntax.
+
+##Usage
 When you're on a blade file, type the snippet shortcut then press `tab` key.
 
-###Avalable snippets
+##Avalable snippets
 
 <table>
 	<tr>
