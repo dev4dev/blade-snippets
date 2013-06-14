@@ -2,7 +2,7 @@
 
 `Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com).
 
-These snippets support files with blade syntax: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package, beside files with normal html syntax.
+These snippets works with blade files (`.blade.php`) either with php syntax or with blade syntax using: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package.
 
 ##Usage
 When you're on a blade file, type the snippet shortcut then press `tab` key.
