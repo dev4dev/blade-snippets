@@ -136,6 +136,6 @@ Or download the snippets zip file and unzip it into your Packages folder.
 
 ---
 Find me on:
-* Github: @AAlakkad.
+* Github: [@AAlakkad](https://github.com/AAlakkad).
 * Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
 * Email: [am.alakkad@gmail.com] (mailto:am.alakkad@gmail.com).
