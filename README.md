@@ -1,6 +1,6 @@
 # Blade Snippets for Sublime Text
 
-`Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com).
+`Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com) PHP framework.
 
 These snippets works with blade files (`.blade.php`) either with php syntax or with blade syntax using: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package.
 
