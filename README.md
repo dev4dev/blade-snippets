@@ -13,7 +13,7 @@ Clone this repository into your Packages folder:
     git clone https://github.com/bliker/laravel4-snippets.git
 
 
-Download the snippets zip file and unzip it into your Packages folder
+Or download the snippets zip file and unzip it into your Packages folder.
 
 ##Avalable snippets
 <table>
