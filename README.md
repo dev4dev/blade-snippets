@@ -1,4 +1,4 @@
-# Blade Template Engine Snippets
+# Blade Snippets for Sublime Text
 
 `Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com).
 
