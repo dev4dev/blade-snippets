@@ -135,4 +135,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 
 
 ---
-Forked from [dev4dev/blade-snippets] (https://github.com/dev4dev/blade-snippets)
+Find me on:
+* Github: @AAlakkad.
+* Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
+* Email: [am.alakkad@gmail.com] (mailto:am.alakkad@gmail.com).
