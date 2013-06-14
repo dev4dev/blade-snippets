@@ -7,8 +7,12 @@ These snippets support files with blade syntax: **PHP - Laravel Blade** availabl
 ##Usage
 When you're on a blade file, type the snippet shortcut then press `tab` key.
 
-##Avalable snippets
+##Installation
+* You can download the snippets zip file and unzip it into your Packages folder
+* or clone this repository into your Packages folder:
+    git clone https://github.com/bliker/laravel4-snippets.git
 
+##Avalable snippets
 <table>
 	<tr>
 		<th>Shortcut</th>
