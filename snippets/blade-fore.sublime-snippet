@@ -1,11 +1,13 @@
 <snippet>
 	<content><![CDATA[
-@if (${1:condition})
-	${2:{{--expr}
-@endif$0
+@forelse (${1:\$array} as ${2:\$element})
+	${3:{{--expr}
+@empty
+	${4:{{--empty expr}
+@endforelse$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-	<tabTrigger>@if</tabTrigger>
+	<tabTrigger>fore</tabTrigger>
 	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.html.blade</scope>
+	<scope>text.html.laravel-blade, text.html</scope>
 </snippet>
