@@ -10,7 +10,7 @@ When you're on a blade file, type the snippet shortcut then press `tab` key.
 ##Installation
 Clone this repository into your Packages folder:
 		
-    git clone https://github.com/AAlakkad/blade-snippets.git
+    git clone https://github.com/dev4dev/blade-snippets.git
 
 
 Or download the snippets zip file and unzip it into your Packages folder.
@@ -135,7 +135,10 @@ Or download the snippets zip file and unzip it into your Packages folder.
 
 
 ---
-Find me on:
+Original snippets by:  
+[@dev4dev](https://github.com/dev4dev)  
+
+Cool Readme formatting and latest updates belong to:  
 * Github: [@AAlakkad](https://github.com/AAlakkad).
 * Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
 * Email: [am.alakkad@gmail.com] (mailto:am.alakkad@gmail.com).
