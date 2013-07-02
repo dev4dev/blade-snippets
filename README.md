@@ -8,7 +8,11 @@ These snippets works with blade files (`.blade.php`) either with php syntax or w
 When you're on a blade file, type the snippet shortcut then press `tab` key.
 
 ##Installation
-Clone this repository into your Packages folder:
+Via `Package Manager` search for `Blade Snippets` then click/tap…wait a sec and tadam!  
+  
+![Blade Snippets](http://f.dev.mk.ua/files/dadbee44b4461b709d444951ba26f70f/file_51d27202c2a8b.png)
+
+Or clone this repository into your Packages folder:
 		
     git clone https://github.com/dev4dev/blade-snippets.git
 
