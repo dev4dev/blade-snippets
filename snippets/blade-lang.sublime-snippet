@@ -1,0 +1,5 @@
+<snippet>
+    <content><![CDATA[@lang('${1:language.line}'${2:, array(${3:'variable'} => ${4:'replacement'})})]]></content>
+    <tabTrigger>lang</tabTrigger>
+    <scope>text.html.laravel-blade, text.html</scope>
+</snippet>
