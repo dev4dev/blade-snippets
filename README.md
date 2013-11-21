@@ -8,12 +8,12 @@ These snippets works with blade files (`.blade.php`) either with php syntax or w
 When you're on a blade file, type the snippet shortcut then press `tab` key.
 
 ##Installation
-Via `Package Manager` search for `Blade Snippets` then click/tap…wait a sec and tadam!  
-  
+Via `Package Manager` search for `Blade Snippets` then click/tap…wait a sec and tadam!
+
 ![Blade Snippets](http://f.dev.mk.ua/files/dadbee44b4461b709d444951ba26f70f/file_51d27202c2a8b.png)
 
 Or clone this repository into your Packages folder:
-		
+
     git clone https://github.com/dev4dev/blade-snippets.git
 
 
@@ -34,7 +34,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>sec</td>
 		<td>
-		@section('`name`') 
+		@section('`name`')
 		<br><br>
 		@endsection
 		</td>
@@ -80,7 +80,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>if</td>
 		<td>
-		@if (`condition`) 
+		@if (`condition`)
 		<br><br>
 		@endif
 		</td>
@@ -88,9 +88,9 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>ife</td>
 		<td>
-		@if (`condition`) 
+		@if (`condition`)
 		<br><br>
-		@else 
+		@else
 		<br><br>
 		@endif
 		</td>
@@ -98,7 +98,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>foreach</td>
 		<td>
-		@foreach(`$array` as `$element`) 
+		@foreach(`$array` as `$element`)
 		<br><br>
 		@endforeach
 		</td>
@@ -106,7 +106,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>fore</td>
 		<td>
-		@forelse (`$array` as `$element`) 
+		@forelse (`$array` as `$element`)
 		<br><br>
 		@endforelse
 		</td>
@@ -114,15 +114,21 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>for</td>
 		<td>
-		@for (`$i` = `0`; `$i` `<` `…`; `$i++`) 
+		@for (`$i` = `0`; `$i` `<` `…`; `$i++`)
 		<br><br>
 		@endfor
 		</td>
 	</tr>
 	<tr>
+		<td>trans</td>
+		<td>
+		{{ trans('language.line') }}
+		</td>
+	</tr>
+	<tr>
 		<td>while</td>
 		<td>
-		@while (`condition`) 
+		@while (`condition`)
 		<br><br>
 		@endwhile
 		</td>
@@ -130,7 +136,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>unless</td>
 		<td>
-		@unless (`condition`) 
+		@unless (`condition`)
 		<br><br>
 		@endunless
 		</td>
@@ -139,10 +145,10 @@ Or download the snippets zip file and unzip it into your Packages folder.
 
 
 ---
-Original snippets by:  
-[@dev4dev](https://github.com/dev4dev)  
+Original snippets by:
+[@dev4dev](https://github.com/dev4dev)
 
-Cool Readme formatting and latest updates belong to:  
+Cool Readme formatting and latest updates belong to:
 * Github: [@AAlakkad](https://github.com/AAlakkad).
 * Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
 * Email: [am.alakkad@gmail.com] (mailto:am.alakkad@gmail.com).
