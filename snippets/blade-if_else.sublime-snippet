@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 @if (${1:condition})
-	${2:{{--true expr}
+	${2:{{-- true expr --}}
 @else
-	${3:{{--false expr}
+	${3:{{-- false expr --}}
 @endif$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
