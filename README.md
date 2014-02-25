@@ -26,6 +26,12 @@ Or download the snippets zip file and unzip it into your Packages folder.
 		<th>Result</th>
 	</tr>
 	<tr>
+		<td>ext</td>
+		<td>
+		@extends('`name`')
+		</td>
+	</tr>
+	<tr>
 		<td>lay</td>
 		<td>
 		@layout('`name`')
@@ -50,7 +56,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>yl</td>
 		<td>
-		@yield('`name`')
+		@yield('`section`', '`default`')
 		</td>
 	</tr>
 	<tr>
@@ -74,7 +80,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 	<tr>
 		<td>inc</td>
 		<td>
-		@include('`name`')
+		@include('`view.name`', `array('some' => 'data')`)
 		</td>
 	</tr>
 	<tr>
@@ -123,6 +129,18 @@ Or download the snippets zip file and unzip it into your Packages folder.
 		<td>trans</td>
 		<td>
 		{{ trans('language.line') }}
+		</td>
+	</tr>
+	<tr>
+		<td>route</td>
+		<td>
+		{{ route('name') }}
+		</td>
+	</tr>
+	<tr>
+		<td>asset</td>
+		<td>
+		{{ asset('path') }}
 		</td>
 	</tr>
 	<tr>
