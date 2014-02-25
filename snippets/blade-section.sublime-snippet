@@ -1,7 +1,7 @@
 <snippet>
 	<content><![CDATA[
 @section('${1:name}')
-	${2:{{--expr}
+	${2:{{-- expr --}
 @stop$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

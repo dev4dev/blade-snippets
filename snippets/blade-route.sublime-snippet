@@ -1,6 +1,7 @@
 <snippet>
-    <content><![CDATA[{{ route('${0:name}') }}]]></content>
+    <content><![CDATA[
+{{ route('${0:name}') }}
+]]></content>
     <tabTrigger>route</tabTrigger>
     <scope>text.html.laravel-blade, text.html</scope>
-    <description>Laravel route url helper snippet</description>
 </snippet>
