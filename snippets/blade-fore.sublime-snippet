@@ -1,9 +1,9 @@
 <snippet>
 	<content><![CDATA[
 @forelse (${1:\$array} as ${2:\$element})
-	${3:{{-- expr --}}
+	${3:{{-- expr --\}\}}
 @empty
-	${4:{{-- empty expr --}}
+	${4:{{-- empty expr --\}\}}
 @endforelse$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
