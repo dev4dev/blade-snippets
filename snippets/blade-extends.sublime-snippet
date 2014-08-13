@@ -2,6 +2,6 @@
     <content><![CDATA[
 @extends('${1:view}')$0
 ]]></content>
-    <tabTrigger>extends</tabTrigger>
+    <tabTrigger>ext</tabTrigger>
     <scope>text.html.laravel-blade, text.html</scope>
 </snippet>
