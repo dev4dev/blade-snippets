@@ -1,5 +1,5 @@
 <snippet>
     <content><![CDATA[{{-- ${0:comment} --}}]]></content>
     <tabTrigger>comment</tabTrigger>
-    <scope>text.html.laravel-blade, text.html</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>

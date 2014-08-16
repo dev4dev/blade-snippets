@@ -5,5 +5,5 @@
 @show$0
 ]]></content>
 	<tabTrigger>lsec</tabTrigger>
-	<scope>text.html.laravel-blade, text.html</scope>
+	<scope>text.html.laravel-blade</scope>
 </snippet>
