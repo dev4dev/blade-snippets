@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[{{ asset('${0:path}') }}]]></content>
+    <content><![CDATA[
+{{ asset('${0:path}') }}
+]]></content>
     <tabTrigger>asset</tabTrigger>
     <scope>text.html.laravel-blade</scope>
 </snippet>

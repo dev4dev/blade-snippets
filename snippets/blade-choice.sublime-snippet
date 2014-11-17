@@ -1,5 +1,7 @@
 <snippet>
-    <content><![CDATA[@choice('${1:language.line}', ${2:number})]]></content>
+    <content><![CDATA[
+@choice('${1:language.line}', ${2:number})
+]]></content>
     <tabTrigger>choice</tabTrigger>
     <scope>text.html.laravel-blade</scope>
 </snippet>

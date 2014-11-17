@@ -20,146 +20,33 @@ Or clone this repository into your Packages folder:
 Or download the snippets zip file and unzip it into your Packages folder.
 
 ##Avalable snippets
-<table>
-	<tr>
-		<th>Shortcut</th>
-		<th>Result</th>
-	</tr>
-	<tr>
-		<td>ext</td>
-		<td>
-		@extends('`name`')
-		</td>
-	</tr>
-	<tr>
-		<td>lay</td>
-		<td>
-		@layout('`name`')
-		</td>
-	</tr>
-	<tr>
-		<td>sec</td>
-		<td>
-		@section('`name`')
-		<br><br>
-		@endsection
-		</td>
-	</tr>
-	<tr>
-		<td>secy</td>
-		<td>
-		@section('`name`')
-		<br><br>
-		@yield_section
-		</td>
-	</tr>
-	<tr>
-		<td>yl</td>
-		<td>
-		@yield('`section`', '`default`')
-		</td>
-	</tr>
-	<tr>
-		<td>par</td>
-		<td>
-		@parent
-		</td>
-	</tr>
-	<tr>
-		<td>}}</td>
-		<td>
-		{{ $`var` }}
-		</td>
-	</tr>
-	<tr>
-		<td>}}}</td>
-		<td>
-		{{ `expression` }}
-		</td>
-	</tr>
-	<tr>
-		<td>inc</td>
-		<td>
-		@include('`view.name`', `array('some' => 'data')`)
-		</td>
-	</tr>
-	<tr>
-		<td>if</td>
-		<td>
-		@if (`condition`)
-		<br><br>
-		@endif
-		</td>
-	</tr>
-	<tr>
-		<td>ife</td>
-		<td>
-		@if (`condition`)
-		<br><br>
-		@else
-		<br><br>
-		@endif
-		</td>
-	</tr>
-	<tr>
-		<td>foreach</td>
-		<td>
-		@foreach(`$array` as `$element`)
-		<br><br>
-		@endforeach
-		</td>
-	</tr>
-	<tr>
-		<td>fore</td>
-		<td>
-		@forelse (`$array` as `$element`)
-		<br><br>
-		@endforelse
-		</td>
-	</tr>
-	<tr>
-		<td>for</td>
-		<td>
-		@for (`$i` = `0`; `$i` `<` `…`; `$i++`)
-		<br><br>
-		@endfor
-		</td>
-	</tr>
-	<tr>
-		<td>trans</td>
-		<td>
-		{{ trans('language.line') }}
-		</td>
-	</tr>
-	<tr>
-		<td>route</td>
-		<td>
-		{{ route('name') }}
-		</td>
-	</tr>
-	<tr>
-		<td>asset</td>
-		<td>
-		{{ asset('path') }}
-		</td>
-	</tr>
-	<tr>
-		<td>while</td>
-		<td>
-		@while (`condition`)
-		<br><br>
-		@endwhile
-		</td>
-	</tr>
-	<tr>
-		<td>unless</td>
-		<td>
-		@unless (`condition`)
-		<br><br>
-		@endunless
-		</td>
-	</tr>
-	</table>
+
+| Shortcut  | Result |
+|-----------|--------|
+| ext		| @extends('`name`') |
+| lay		| @layout('`name`')  |
+| sec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @endsection    |
+| secy		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @yield_section |
+| yl		| @yield('`section`', '`default`') |
+| lsec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
+| par		| @parent	|
+| }}		| {{ $`var` }}	|
+| }}}		| {{{ `escaped output` }}}	|
+| inc		| @include('`view.name`', `array('some' => 'data')`)  |
+| if		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
+| ife		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
+| foreach	| @foreach(`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforeach  |
+| fore		| @forelse (`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforelse  |
+| for		| @for (`$i` = `0`; `$i` `<` `…`; `$i++`) <br /> **{{-- expr --\}\}** <br /> @endfor  |
+| each		| @each ('`item.view`', $`items`, '`item`', '`empty.view`')
+| trans		| {{ trans('`language.line`') }}	|
+| route		| {{ route('`name`') }}	|
+| asset		| {{ asset('`path`') }}	|
+| while		| @while (`condition`) <br /> **{{-- expr --\}\}** <br /> @endwhile  |
+| unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
+| choise	| @choice('`language.line`', $`number`)  |
+| comment	| {{-- `comment` --}}	|
+| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  | 
 
 
 ---
@@ -169,4 +56,4 @@ Original snippets by:
 Cool Readme formatting and latest updates belong to:
 * Github: [@AAlakkad](https://github.com/AAlakkad).
 * Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
-* Email: [am.alakkad@gmail.com] (mailto:am.alakkad@gmail.com).
+* Email: [am.alakkad@gmail.com](mailto:am.alakkad@gmail.com).
