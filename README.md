@@ -30,8 +30,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | yl		| @yield('`section`', '`default`') |
 | lsec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
 | par		| @parent	|
-| }}		| {{ $`var` }}	|
-| }}}		| {{{ `escaped output` }}}	|
+| !!		| {!! $`var` !!}	|
+| }}		| {{ `escaped output` }}	|
 | inc		| @include('`view.name`', `array('some' => 'data')`)  |
 | if		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
 | ife		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
