@@ -1,8 +1,8 @@
 <snippet>
 	<content><![CDATA[
 @section('${1:name}')
-	${2:{{-- expr --\}\}}
-@yield_section$0
+	${0:{{-- expr --\}\}}
+@yield_section
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>secy</tabTrigger>
