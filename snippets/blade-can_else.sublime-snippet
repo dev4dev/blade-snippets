@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@can('${1:policy}', \$${2:model})
+    ${3:{{-- expr --\}\}}
+@else
+    ${3:{{-- else expr --\}\}}
+@endcan$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cane</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.html.laravel-blade</scope>
+</snippet>
