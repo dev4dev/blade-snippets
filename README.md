@@ -23,6 +23,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 
 | Shortcut  | Result |
 |-----------|--------|
+| can       | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @endcan |
+| cane      | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** @endcan |
 | ext		| @extends('`name`') |
 | lay		| @layout('`name`')  |
 | sec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @endsection    |
@@ -46,7 +48,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | choise	| @choice('`language.line`', $`number`)  |
 | comment	| {{-- `comment` --}}	|
-| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  | 
+| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  |
 
 
 ---
