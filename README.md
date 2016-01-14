@@ -43,7 +43,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | each		| @each ('`item.view`', $`items`, '`item`', '`empty.view`')
 | trans		| {{ trans('`language.line`') }}	|
 | route		| {{ route('`name`') }}	|
-| asset		| {{ asset('`path`') }}	|
+| asset     | {{ asset('`path`') }} |
+| url		| {{ url('`path`') }}	|
 | while		| @while (`condition`) <br /> **{{-- expr --\}\}** <br /> @endwhile  |
 | unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | choise	| @choice('`language.line`', $`number`)  |
