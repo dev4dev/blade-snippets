@@ -31,7 +31,9 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | secy		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @yield_section |
 | yl		| @yield('`section`', '`default`') |
 | lsec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
-| par		| @parent	|
+| par       | @parent   |
+| stack		| @stack('`name`')	|
+| push      | @push('`name`') <br /> **{{-- expr --\}\}** <br /> @endpush    |
 | !!		| {!! $`var` !!}	|
 | }}		| {{ `escaped output` }}	|
 | inc		| @include('`view.name`', `array('some' => 'data')`)  |
