@@ -3,5 +3,5 @@
 {{ url('${0:path}') }}
 ]]></content>
     <tabTrigger>url</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>

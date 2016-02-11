@@ -3,5 +3,5 @@
 @choice('${1:language.line}', ${2:number})
 ]]></content>
     <tabTrigger>choice</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>

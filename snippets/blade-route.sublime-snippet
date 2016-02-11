@@ -3,5 +3,5 @@
 {{ route('${0:name}') }}
 ]]></content>
     <tabTrigger>route</tabTrigger>
-    <scope>text.html.laravel-blade</scope>
+    <scope>text.blade</scope>
 </snippet>
