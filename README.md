@@ -36,7 +36,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | push      | @push('`name`') <br /> **{{-- expr --\}\}** <br /> @endpush    |
 | !!		| {!! $`var` !!}	|
 | }}		| {{ `escaped output` }}	|
-| inc		| @include('`view.name`', `array('some' => 'data')`)  |
+| inc		| @include('`view.name`', `['some' => 'data']`)  |
 | if		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
 | ife		| @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
 | foreach	| @foreach(`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforeach  |
