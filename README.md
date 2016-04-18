@@ -29,6 +29,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | lay		| @layout('`name`')  |
 | sec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @endsection    |
 | secy		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @yield_section |
+| hass      | @hasSection('`name`') <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
 | yl		| @yield('`section`', '`default`') |
 | lsec		| @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
 | par       | @parent   |
