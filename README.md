@@ -43,7 +43,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | foreach	| @foreach(`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforeach  |
 | fore		| @forelse (`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforelse  |
 | for		| @for (`$i` = `0`; `$i` `<` `…`; `$i++`) <br /> **{{-- expr --\}\}** <br /> @endfor  |
-| each		| @each ('`item.view`', $`items`, '`item`', '`empty.view`')
+| each		| @each ('`item.view`', $`items`, '`item`', '`empty.view`') |
 | trans		| {{ trans('`language.line`') }}	|
 | route		| {{ route('`name`') }}	|
 | asset     | {{ asset('`path`') }} |
@@ -53,6 +53,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | choise	| @choice('`language.line`', $`number`)  |
 | comment	| {{-- `comment` --}}	|
 | lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  |
+| inject    | @inject('`name`', '`App\Services\ServiceName`') |
 
 
 ---
