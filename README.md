@@ -52,7 +52,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | choise	| @choice('`language.line`', $`number`)  |
 | comment	| {{-- `comment` --}}	|
-| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  |
+| lang		| @lang('`language.line`', ['`variable` => '`replacement`'])  |
 | inject    | @inject('`name`', '`App\Services\ServiceName`') |
 
 
