@@ -19,7 +19,7 @@ Or clone this repository into your Packages folder:
 
 Or download the snippets zip file and unzip it into your Packages folder.
 
-##Avalable snippets
+##Available snippets
 
 | Shortcut  | Result |
 |-----------|--------|
