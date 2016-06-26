@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@task('${1:foo}', ['${2:on}' => '${3:web}'])
+	${0:command}
+@endtask
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>task</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@macro('${1:deploy}')
+	${0:command}
+@endmacro
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>macro</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

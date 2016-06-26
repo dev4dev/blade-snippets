@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@servers(['${1:web}' => '${2:user@192.168.1.1}'])$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>serv</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>

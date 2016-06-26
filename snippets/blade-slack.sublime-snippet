@@ -1,0 +1,9 @@
+<snippet>
+	<content><![CDATA[
+@slack('${1:hook}', '${2:channel}', '${3:message}')$0
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>sla</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>
