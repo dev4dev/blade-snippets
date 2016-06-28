@@ -19,7 +19,7 @@ Or clone this repository into your Packages folder:
 
 Or download the snippets zip file and unzip it into your Packages folder.
 
-##Avalable snippets
+##Available snippets
 
 | Shortcut  | Result |
 |-----------|--------|
@@ -52,8 +52,23 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | unless	| @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | choise	| @choice('`language.line`', $`number`)  |
 | comment	| {{-- `comment` --}}	|
-| lang		| @lang('`language.line`', array('`variable` => '`replacement`'))  |
+| lang		| @lang('`language.line`', ['`variable` => '`replacement`'])  |
 | inject    | @inject('`name`', '`App\Services\ServiceName`') |
+
+
+##Envoy snippets
+
+Snippets for [Laravel Envoy](https://laravel.com/docs/5.2/envoy).
+
+| Shortcut  | Result |
+|-----------|--------|
+| serv      | @servers(['`web`' => '`user@192.168.1.1`']) |
+| task      | @task('`foo`') <br /> **command** <br /> @endtask    |
+| set       | @setup <br /> **{{-- expr --\}\}** <br /> @endsetup    |
+| mac       | @macro('`deploy') <br /> **command** <br /> @endmacro    |
+| aft       | @after<br /> **hip** <br /> @endafter    |
+| hip       | @hipchat('token', 'room', 'Envoy', "$task ran in the $env environment.") |
+| sla       | @slack('hook', 'channel', 'message') |
 
 
 ---
