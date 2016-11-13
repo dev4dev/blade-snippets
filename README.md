@@ -69,6 +69,7 @@ Snippets for [Laravel Envoy](https://laravel.com/docs/5.2/envoy).
 | aft       | @after<br /> **hip** <br /> @endafter    |
 | hip       | @hipchat('token', 'room', 'Envoy', "$task ran in the $env environment.") |
 | sla       | @slack('hook', 'channel', 'message') |
+| story     | @story('deploy') <br /> **command** <br /> @endstory |
 
 
 ##Blade Wordpress Plugin
