@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+@story('${1:deploy}')
+	${0:command}
+@endstory
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>story</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>text.blade</scope>
+</snippet>
