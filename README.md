@@ -60,6 +60,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | each      | @each ('`item.view`', $`items`, '`item`', '`empty.view`') |
 | continue  | @continue('condition') |
 | break     | @break('condition') |
+| php       | @php<br /> **{{-- expr --\}\}** <br /> @endphp   |
 
 ### Stacks
 
