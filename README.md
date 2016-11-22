@@ -57,6 +57,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | fore      | @forelse (`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforelse  |
 | while     | @while (`condition`) <br /> **{{-- expr --\}\}** <br /> @endwhile  |
 | inc       | @include('`view.name`', `['some' => 'data']`)  |
+| incif     | @includeIf('`view.name`', `['some' => 'data']`)  |
 | each      | @each ('`item.view`', $`items`, '`item`', '`empty.view`') |
 | continue  | @continue('condition') |
 | break     | @break('condition') |
