@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+@continue${1:('${2:condition}')}
+]]></content>
+    <tabTrigger>continue</tabTrigger>
+    <scope>text.blade</scope>
+</snippet>
