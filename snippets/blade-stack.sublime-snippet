@@ -3,5 +3,5 @@
 @stack('${1:view}')$0
 ]]></content>
     <tabTrigger>stack</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>

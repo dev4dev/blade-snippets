@@ -3,5 +3,5 @@
 @continue${1:('${2:condition}')}
 ]]></content>
     <tabTrigger>continue</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>
