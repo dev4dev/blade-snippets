@@ -1,0 +1,7 @@
+<snippet>
+    <content><![CDATA[
+{{ __('${0:language.line}') }}
+]]></content>
+    <tabTrigger>__</tabTrigger>
+    <scope>text.blade</scope>
+</snippet>

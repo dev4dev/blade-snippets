@@ -93,6 +93,7 @@ See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorizat
 | inject    | @inject('`name`', '`App\Services\ServiceName`') |
 | trans     | {{ trans('`language.line`') }}    |
 | lang      | @lang('`language.line`', ['`variable` => '`replacement`'])  |
+| __        | {{ __('`language.line`') }}    |
 
 ---
 
