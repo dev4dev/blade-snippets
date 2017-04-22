@@ -1,8 +1,8 @@
 # Blade Snippets for Sublime Text
 
-`Blade` is a simple, yet powerful templating engine provided with [Laravel] (http://laravel.com) PHP framework.
+`Blade` is a simple, yet powerful templating engine provided with [Laravel](http://laravel.com) PHP framework.
 
-These snippets works with blade files (`.blade.php`) either with php syntax or with blade syntax using: **PHP - Laravel Blade** available from [Laravel Blade Highlighter] (https://github.com/Medalink/laravel-blade) package.
+These snippets works with blade files (`.blade.php`) either with php syntax or with blade syntax using: **PHP - Laravel Blade** available from [Laravel Blade Highlighter](https://github.com/Medalink/laravel-blade) package.
 
 ## Usage
 When you’re editing a blade file, type the snippet shortcut then press `tab` key.
@@ -130,6 +130,6 @@ Original snippets by:
 [@dev4dev](https://github.com/dev4dev)
 
 Cool Readme formatting and latest updates belong to:
-* Github: [@AAlakkad](https://github.com/AAlakkad).
+* GitHub: [@AAlakkad](https://github.com/AAlakkad).
 * Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
 * Email: [am.alakkad@gmail.com](mailto:am.alakkad@gmail.com).
