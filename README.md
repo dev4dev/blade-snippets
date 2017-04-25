@@ -129,7 +129,7 @@ Snippets for [Blade Wordpress Plugin](https://it.wordpress.org/plugins/blade/).
 Original snippets by:
 [@dev4dev](https://github.com/dev4dev)
 
-Cool Readme formatting and latest updates belong to:
-* GitHub: [@AAlakkad](https://github.com/AAlakkad).
-* Twitter: [@Am_Alakkad](https://twitter.com/Am_Alakkad).
-* Email: [am.alakkad@gmail.com](mailto:am.alakkad@gmail.com).
+Cool Readme formatting:
+GitHub: [@AAlakkad](https://github.com/AAlakkad).
+
+[Contributors](https://github.com/dev4dev/blade-snippets/graphs/contributors)
