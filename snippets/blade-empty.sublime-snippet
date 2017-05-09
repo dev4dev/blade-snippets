@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@empty ($1)
+    $2
+@endempty
+]]></content>
+    <tabTrigger>empty</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Defines an empty statement</description>
+</snippet>

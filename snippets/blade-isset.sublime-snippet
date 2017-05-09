@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@isset ($1)
+    $2
+@endisset
+]]></content>
+    <tabTrigger>isset</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Defines an isset statement</description>
+</snippet>

@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-@can('${1:policy}', \$${2:model})
+@can('${1:policy}', ${2:Model}::class)
     ${3:{{-- expr --\}\}}
 @endcan
 ]]></content>

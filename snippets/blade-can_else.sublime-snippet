@@ -3,7 +3,7 @@
 @can('${1:policy}', \$${2:model})
     ${3:{{-- expr --\}\}}
 @else
-    ${3:{{-- else expr --\}\}}
+    ${4:{{-- else expr --\}\}}
 @endcan$0
 ]]></content>
     <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->

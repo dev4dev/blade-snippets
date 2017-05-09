@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@cannot('${1:action}', ${2:Model}::class)
+    ${3:{{-- expr --\}\}}
+@endcannot
+]]></content>
+    <tabTrigger>cannot</tabTrigger>
+    <scope>text.blade</scope>
+    <description>See if user can't performe an action</description>
+</snippet>
