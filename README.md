@@ -94,6 +94,7 @@ See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorizat
 | trans     | {{ trans('`language.line`') }}    |
 | lang      | @lang('`language.line`', ['`variable` => '`replacement`'])  |
 | __        | {{ __('`language.line`') }}    |
+| verbatim  | @verbatim<br />`Javascript, {{ variable }}`<br /> @endverbatim |
 
 ---
 
