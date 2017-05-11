@@ -32,10 +32,18 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | ext       | @extends('`name`') |
 | sec       | @section('`name`') <br /> **{{-- expr --\}\}** <br /> @endsection    |
 | secy      | @section('`name`') <br /> **{{-- expr --\}\}** <br /> @yield_section |
+| secsim    | @section('`name`', '`content`')  |
 | hass      | @hasSection('`name`') <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
 | yl        | @yield('`section`', '`default`') |
 | lsec      | @section('`name`') <br /> **{{-- expr --\}\}** <br /> @show |
 | par       | @parent   |
+
+### Components & Slots
+
+| Shortcut  | Result |
+|-----------|--------|
+| comp      | @component('`component`', '`data`') <br /> **{{-- expr --\}\}** <br /> @endcomponent  |
+| slot      | @slot('`slot`') <br /> **{{-- expr --\}\}** <br /> @endslot |
 
 ### Displaying data
 
@@ -44,6 +52,12 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | !!        | {!! $`var` !!}    |
 | }}        | {{ `escaped output` }}    |
 
+### Blade & JavaScript Frameworks
+
+| Shortcut  | Result |
+|-----------|--------|
+| @{{       | @{{ `javascript` }}    |
+| verb      | @verbatim <br /> **{{-- code --\}\}** <br /> @endverbatim  |
 
 ### Control Structures
 
@@ -62,6 +76,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | continue  | @continue('condition') |
 | break     | @break('condition') |
 | php       | @php<br /> **{{-- expr --\}\}** <br /> @endphp   |
+| empty     | @empty (`condition`)<br /> **{{-- expr --\}\}** <br /> @endempty   |
+| isset     | @isset (`condition`)<br /> **{{-- expr --\}\}** <br /> @endisset   |
 
 ### Stacks
 
@@ -70,16 +86,16 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | stack     | @stack('`name`')  |
 | push      | @push('`name`') <br /> **{{-- expr --\}\}** <br /> @endpush    |
 
-
 ### Policies
 
 See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorization#via-blade-templates).
 
 | Shortcut  | Result |
 |-----------|--------|
-| can       | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @endcan |
-| cane      | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** @endcan |
-
+| can       | @can('`policy`', Model::class) <br /> **{{-- expr --\}\}** <br /> @endcan |
+| cane      | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- else expr --\}\}** @endcan |
+| cannot    | @cannot('`policy`', Model::class) <br /> **{{-- expr --\}\}** <br /> @endcannot |
+| cannote   | @cannot('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- else expr --\}\}** @endcannot |
 
 ### Miscellaneous
 

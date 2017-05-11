@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@slot('${1:slot}')
+    $2
+@endslot
+]]></content>
+    <tabTrigger>slot</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Defines a slot of a component</description>
+</snippet>

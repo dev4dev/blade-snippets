@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@verbatim
+    ${1:code}
+@endverbatim
+]]></content>
+    <tabTrigger>verb</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Display JavaScript variables in a large portion</description>
+</snippet>

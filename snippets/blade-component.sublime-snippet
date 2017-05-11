@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@component('${1:component}', '${2:array}')
+    $3
+@endcomponent
+]]></content>
+    <tabTrigger>comp</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Defines a component and passes array with data</description>
+</snippet>

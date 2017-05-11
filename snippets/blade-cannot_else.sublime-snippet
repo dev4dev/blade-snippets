@@ -1,0 +1,12 @@
+<snippet>
+    <content><![CDATA[
+@cannot('${1:policy}', \$${2:model})
+    ${3:{{-- expr --\}\}}
+@else
+    ${4:{{-- else expr --\}\}}
+@endcannot
+]]></content>
+    <tabTrigger>cannote</tabTrigger>
+    <scope>text.blade</scope>
+    <description>See if user can't performe an action with else</description>
+</snippet>

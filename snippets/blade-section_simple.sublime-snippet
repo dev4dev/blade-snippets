@@ -1,0 +1,8 @@
+<snippet>
+    <content><![CDATA[
+@section('${1:section}', '${2:content}')
+]]></content>
+    <tabTrigger>secsim</tabTrigger>
+    <scope>text.blade</scope>
+    <description>Defines a section with simple value</description>
+</snippet>
