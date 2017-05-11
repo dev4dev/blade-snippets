@@ -3,5 +3,5 @@
 {{-- ${0:comment} --}}
 ]]></content>
     <tabTrigger>comment</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>

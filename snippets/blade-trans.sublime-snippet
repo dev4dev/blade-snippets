@@ -3,5 +3,5 @@
 {{ trans('${0:language.line}') }}
 ]]></content>
     <tabTrigger>trans</tabTrigger>
-    <scope>text.blade</scope>
+    <scope>text.html.laravel-blade</scope>
 </snippet>
