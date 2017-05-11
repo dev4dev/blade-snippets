@@ -1,6 +1,6 @@
 <snippet>
     <content><![CDATA[
-@cannot('${1:action}', \$${2:model})
+@cannot('${1:policy}', \$${2:model})
     ${3:{{-- expr --\}\}}
 @else
     ${4:{{-- else expr --\}\}}
