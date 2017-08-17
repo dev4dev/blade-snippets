@@ -6,5 +6,5 @@
 ]]></content>
     <tabTrigger>cannot</tabTrigger>
     <scope>text.blade</scope>
-    <description>See if user can't performe an action</description>
+    <description>See if user can't perform an action</description>
 </snippet>
