@@ -8,5 +8,5 @@
 ]]></content>
     <tabTrigger>cannote</tabTrigger>
     <scope>text.blade</scope>
-    <description>See if user can't performe an action with else</description>
+    <description>See if user can't perform an action with else</description>
 </snippet>
