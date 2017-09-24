@@ -86,6 +86,13 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | stack     | @stack('`name`')  |
 | push      | @push('`name`') <br /> **{{-- expr --\}\}** <br /> @endpush    |
 
+### Authentication Shortcuts
+
+| Shortcut  | Result |
+|-----------|--------|
+| auth     | @auth('`name`') <br /> **{{-- expr --\}\}** <br /> @endauth    |
+| guest      | @guest('`name`') <br /> **{{-- expr --\}\}** <br /> @endguest    |
+
 ### Policies
 
 See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorization#via-blade-templates).
