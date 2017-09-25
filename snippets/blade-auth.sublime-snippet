@@ -2,7 +2,6 @@
 	<content><![CDATA[
 @auth${1:('${2:user}')}
 	${3:{{-- expr --\}\}}
-}
 @endauth$0
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
