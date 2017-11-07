@@ -65,6 +65,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 |-----------|--------|
 | if        | @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
 | ife       | @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
+| switch        | @switch($i) <br> &nbsp;&nbsp;&nbsp;&nbsp;@case(case1) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First case... <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@break <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;@default <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default case... <br> @endswitch <br>
+|
 | unless    | @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | for       | @for (`$i` = `0`; `$i` `<` `…`; `$i++`) <br /> **{{-- expr --\}\}** <br /> @endfor  |
 | foreach   | @foreach(`$array` as `$element`) <br /> **{{-- expr --\}\}** <br /> @endforeach  |
