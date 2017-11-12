@@ -1,0 +1,17 @@
+<snippet>
+    <content><![CDATA[
+@switch(\$${1:i})
+    @case(${2:case1})
+        ${3:First case...}
+        @break
+
+    ${4:@default
+            ${5:Default case...}}
+@endswitch
+$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>switch</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>
