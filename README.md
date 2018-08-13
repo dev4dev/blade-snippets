@@ -65,6 +65,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 |-----------|--------|
 | if        | @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @endif   |
 | ife       | @if (`condition`) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- expr --\}\}** <br /> @endif  |
+| eif       | @elseif (`condition`) <br /> **{{-- expr --\}\}** |
 | switch        | @switch($i) <br> &nbsp;&nbsp;&nbsp;&nbsp;@case(case1) <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;First case... <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;@break <br> <br>&nbsp;&nbsp;&nbsp;&nbsp;@default <br> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Default case... <br> @endswitch <br>|
 | unless    | @unless (`condition`) <br /> **{{-- expr --\}\}** <br /> @endunless  |
 | for       | @for (`$i` = `0`; `$i` `<` `…`; `$i++`) <br /> **{{-- expr --\}\}** <br /> @endfor  |
@@ -73,6 +74,8 @@ Or download the snippets zip file and unzip it into your Packages folder.
 | while     | @while (`condition`) <br /> **{{-- expr --\}\}** <br /> @endwhile  |
 | inc       | @include('`view.name`', `['some' => 'data']`)  |
 | incif     | @includeIf('`view.name`', `['some' => 'data']`)  |
+| incwhen   | @includeWhen(`boolean`, '`view.name`', `['some' => 'data']`)  |
+| incf      | @includeFirst(['`custom.admin`', '`admin`'], `['some' => 'data']`)  |
 | each      | @each ('`item.view`', $`items`, '`item`', '`empty.view`') |
 | continue  | @continue('condition') |
 | break     | @break('condition') |
@@ -86,6 +89,7 @@ Or download the snippets zip file and unzip it into your Packages folder.
 |-----------|--------|
 | stack     | @stack('`name`')  |
 | push      | @push('`name`') <br /> **{{-- expr --\}\}** <br /> @endpush    |
+| prepend   | @prepend('`name`') <br /> **{{-- expr --\}\}** <br /> @endprepend    |
 
 ### Authentication Shortcuts
 
@@ -104,6 +108,8 @@ See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorizat
 | cane      | @can('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- else expr --\}\}** @endcan |
 | cannot    | @cannot('`policy`', Model::class) <br /> **{{-- expr --\}\}** <br /> @endcannot |
 | cannote   | @cannot('`policy`', $model) <br /> **{{-- expr --\}\}** <br /> @else <br /> **{{-- else expr --\}\}** @endcannot |
+| canany    | @canany('`policy`', $model) <br /> **{{-- expr --\}\}** @endcanany |
+| cananye   | @canany(['`policy`', '`policy`'], $model) <br /> **{{-- expr --\}\}** <br> @elsecanany(['`policy`', '`policy`'], $model) <br /> **{{-- expr --\}\}** <br> @endcanany |
 
 ### Miscellaneous
 
@@ -118,6 +124,10 @@ See the Laravel [Policies documentation](https://laravel.com/docs/5.3/authorizat
 | trans     | {{ trans('`language.line`') }}    |
 | lang      | @lang('`language.line`', ['`variable` => '`replacement`'])  |
 | __        | {{ __('`language.line`') }}    |
+| csrf      | @csrf |
+| method    | @method('`PUT`') |
+| json      | @json(`expression`) |
+| dump      | @dump(`expression`) |
 
 ---
 

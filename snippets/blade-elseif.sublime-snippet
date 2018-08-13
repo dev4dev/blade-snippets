@@ -1,0 +1,10 @@
+<snippet>
+    <content><![CDATA[
+@elseif (${1:condition})
+    ${2:{{-- true expr --\}\}}$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>eif</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>

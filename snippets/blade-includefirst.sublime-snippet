@@ -1,0 +1,9 @@
+<snippet>
+    <content><![CDATA[
+@includeFirst(['${1:custom.admin}', '${2:admin}']${3:, [${4:'some'} => ${5:'data'}]})$0
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>incf</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>

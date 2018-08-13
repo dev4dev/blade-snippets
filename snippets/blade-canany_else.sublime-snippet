@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+@canany(['${1:policy}', '${2:policy}'], ${3:${4:Model}::class})
+    ${5:{{-- expr --\}\}}
+@elsecanany(['${6:policy}', '${7:policy}'], ${8:${9:Model}::class})
+    ${10:{{-- else expr --\}\}}
+@endcanany
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>cananye</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>
