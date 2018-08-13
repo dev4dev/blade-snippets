@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+@prepend('${1:name}')
+    ${0:{{-- expr --\}\}}
+@endprepend
+]]></content>
+    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+    <tabTrigger>prepend</tabTrigger>
+    <!-- Optional: Set a scope to limit where the snippet will trigger -->
+    <scope>text.blade</scope>
+</snippet>
