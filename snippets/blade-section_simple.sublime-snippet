@@ -1,8 +1,8 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @section('${1:section}', '${2:content}')
 ]]></content>
-    <tabTrigger>secsim</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Defines a section with simple value</description>
+	<tabTrigger>secsim</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Defines a section with simple value</description>
 </snippet>

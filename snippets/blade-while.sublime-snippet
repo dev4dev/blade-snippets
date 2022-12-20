@@ -4,8 +4,6 @@
 	${2:{{-- expr --\}\}}
 @endwhile$0
 ]]></content>
-	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>while</tabTrigger>
-	<!-- Optional: Set a scope to limit where the snippet will trigger -->
-	<scope>text.blade</scope>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
 </snippet>

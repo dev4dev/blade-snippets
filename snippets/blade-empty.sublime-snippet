@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @empty ($1)
-    $2
+	$2
 @endempty
 ]]></content>
-    <tabTrigger>empty</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Defines an empty statement</description>
+	<tabTrigger>empty</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Defines an empty statement</description>
 </snippet>

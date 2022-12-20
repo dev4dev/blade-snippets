@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @lang('${1:language.line}'${2:, [${3:'variable'} => ${4:'replacement'}]})
 ]]></content>
-    <tabTrigger>lang</tabTrigger>
-    <scope>text.blade</scope>
+	<tabTrigger>lang</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
 </snippet>

@@ -5,5 +5,5 @@
 @show$0
 ]]></content>
 	<tabTrigger>lsec</tabTrigger>
-	<scope>text.blade</scope>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
 </snippet>

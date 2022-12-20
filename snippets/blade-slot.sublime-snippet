@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @slot('${1:slot}')
-    $2
+	$2
 @endslot
 ]]></content>
-    <tabTrigger>slot</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Defines a slot of a component</description>
+	<tabTrigger>slot</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Defines a slot of a component</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @isset ($1)
-    $2
+	$2
 @endisset
 ]]></content>
-    <tabTrigger>isset</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Defines an isset statement</description>
+	<tabTrigger>isset</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Defines an isset statement</description>
 </snippet>

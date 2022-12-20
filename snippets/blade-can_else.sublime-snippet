@@ -1,13 +1,11 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @can('${1:policy}', \$${2:model})
-    ${3:{{-- expr --\}\}}
+	${3:{{-- expr --\}\}}
 @else
-    ${4:{{-- else expr --\}\}}
+	${4:{{-- else expr --\}\}}
 @endcan$0
 ]]></content>
-    <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
-    <tabTrigger>cane</tabTrigger>
-    <!-- Optional: Set a scope to limit where the snippet will trigger -->
-    <scope>text.blade</scope>
+	<tabTrigger>cane</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
 </snippet>
