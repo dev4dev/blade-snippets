@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @verbatim
-    ${1:code}
+	${1:code}
 @endverbatim
 ]]></content>
-    <tabTrigger>verb</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Display JavaScript variables in a large portion</description>
+	<tabTrigger>verb</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Display JavaScript variables in a large portion</description>
 </snippet>

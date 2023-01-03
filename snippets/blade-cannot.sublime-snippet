@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @cannot('${1:policy}', ${2:Model}::class)
-    ${3:{{-- expr --\}\}}
+	${3:{{-- expr --\}\}}
 @endcannot
 ]]></content>
-    <tabTrigger>cannot</tabTrigger>
-    <scope>text.blade</scope>
-    <description>See if user can't perform an action</description>
+	<tabTrigger>cannot</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>See if user can't perform an action</description>
 </snippet>

@@ -1,10 +1,10 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 @component('${1:component}', '${2:array}')
-    $3
+	$3
 @endcomponent
 ]]></content>
-    <tabTrigger>comp</tabTrigger>
-    <scope>text.blade</scope>
-    <description>Defines a component and passes array with data</description>
+	<tabTrigger>comp</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
+	<description>Defines a component and passes array with data</description>
 </snippet>

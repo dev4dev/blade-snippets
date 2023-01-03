@@ -1,7 +1,7 @@
 <snippet>
-    <content><![CDATA[
+	<content><![CDATA[
 {{ url('${0:path}') }}
 ]]></content>
-    <tabTrigger>url</tabTrigger>
-    <scope>text.blade</scope>
+	<tabTrigger>url</tabTrigger>
+	<scope>(text.blade | text.html.blade | source.css.blade | source.js.blade) - custom.compiler.blade - meta.embedded.blade - source.php - text.plain - punctuation.section.embedded</scope>
 </snippet>
